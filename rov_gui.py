@@ -87,10 +87,10 @@ class Window(QWidget):
         ]
         data_table.setHorizontalHeaderLabels(col_name)
         row_name = [
-            'Depth',
-            'Battery',
-            'Humidity',
-            'cabin_temp',
+            'Depth', #深度
+            'Battery', #电池
+            'Humidity', #湿度
+            'cabin_temp', #机体温度
             'yaw',
             'pitch',
         ]
